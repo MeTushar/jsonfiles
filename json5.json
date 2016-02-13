@@ -1,0 +1,29 @@
+{
+"advancedfilter":
+	[
+		  {
+				"label": "Head Dimension",
+				"type": "dropdown",
+				"values":{"key1": "value1","key2": "value2"},
+				"column":1,
+				"ajaxHandler": "getNewAngles1"
+			},
+			{
+				"label": "Angle",
+				"type": "dropdown",
+				"values":{"key1": "value1","key2": "value2"},
+				"column":2
+			},
+			{
+				"label": "Caption",
+				"type": "input",
+				"column":3
+			},
+			{
+				"label": "Caption",
+				"type": "checkbox",
+				"values": {"onstate":"ON", "offstate":"OFF"},
+				"column":4
+			}
+	]
+}
